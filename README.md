@@ -1,48 +1,52 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
 
+This project focuses on analyzing and predicting loan defaults using a dataset from a lending institution. It employs exploratory data analysis (EDA) to identify key drivers of loan defaults and develops data-driven metrics to assess borrower risk.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Dataset](#dataset)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+You work for a consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+
+-If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+-If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+
+Use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
+
+## Dataset
+The dataset includes variables such as loan amount, interest rate, debt-to-income ratio, employment length, and loan status and many more. It has been preprocessed for missing values and outliers.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Top Risk Indicators for Default such as :
+- Longer-term loans.
+- Higher Loan Amount
+- Higher Installments
+- High Interest Rates: Associated with high-risk borrowers.
+- Debt to income ratio
+- Loan Purpose: Small business.
+- Low Annual Income and Employment Length
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python: Data analysis and visualization. 
+- Libraries: Pandas 2.2.2, NumPy 1.26.4, Matplotlib 3.8.4, Seaborn  0.13.2
+- Visualization Tools: Bar charts, scatter plots, and heatmaps.
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was done by Merine George and Yashaswini Budalmat.
+- This project was based on Case study for Upgrad[https://www.upgrad.com/]
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@merinecg] - feel free to contact me!
 
 
 <!-- Optional -->
